@@ -63,7 +63,9 @@ nav{
     margin-top:auto;
     padding-top:35.7rem;
     }
- 
+ #about{
+     margin-top:5.5rem;
+ }
 .con-1{
     grid-column:1/4;
 }
