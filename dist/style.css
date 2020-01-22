@@ -5,17 +5,7 @@
 }
 body{
    height:100vh; 
-  /* this is to disable the scrollbar
-   overflow:hidden; */
 }
-/* this is for occupying an size of the screen for our contents  which is plzed inside the 
-section and it can be a div a id or whatever
-section{
-   width:100%;
-   height:100vh;
-   
-}
-*/
 i{
     color:black;
 }
@@ -59,7 +49,7 @@ nav{
     display:block;
     margin-bottom:auto;
     zoom:50%;
-    /* padding-bottom:50rem; */
+   
 }
 
     @media only screen and (max-width:600px){
