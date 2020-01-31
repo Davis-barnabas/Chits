@@ -124,12 +124,12 @@
 <div class="parallax-container" style="height:350px;margin-top:2rem;margin-bottom:2rem;">
     <div class="container">
     <div class="carousel" >
-        <a class="carousel-item " href="#one!"><img src="images/g2-min.jpg" ></a>
-        <a class="carousel-item" href="#two!"><img src="images/g3-min.jpg"></a>
-        <a class="carousel-item" href="#three!"><img src="images/g4-min.jpg"></a>
-        <a class="carousel-item" href="#four!"><img src="images/g5-min.jpg"></a>
-        <a class="carousel-item" href="#five!"><img src="images/g6-min.jpg"></a>
-        <a class="carousel-item" href="#six!"><img src="images/g7-min.jpg"></a>
+        <a class="carousel-item " href="#one!"><img  class="materialboxed" width="200" height="130" src="images/g2-min.jpg" ></a>
+        <a class="carousel-item" href="#two!"><img class="materialboxed" width="200" height="130" src="images/g3-min.jpg"></a>
+        <a class="carousel-item" href="#three!"><img class="materialboxed" width="200" height="130" src="images/g4-min.jpg"></a>
+        <a class="carousel-item" href="#four!"><img class="materialboxed" width="200" height="130" src="images/g5-min.jpg"></a>
+        <a class="carousel-item" href="#five!"><img class="materialboxed" width="200" height="130" src="images/g6-min.jpg"></a>
+        <a class="carousel-item" href="#six!"><img  class="materialboxed" width="200" height="130" src="images/g7-min.jpg"></a>
      </div>
     </div>
     <div class="parallax"><img src="images/stars-min.jpg" width="100%" ></div>
@@ -140,7 +140,7 @@
              <h1 class="center text-darken-2 black-text" style="font-family:'Roboto',sans-serif;padding-top:1rem;font-weight: bolder;">Sign-up</h1>
          </div>
         <div class="row">
-            <form class="col l6 m6 s10 offset-l3 offset-m3 offset-s1" data-netlify-recaptcha="true" name="contact" method="POST" data-netlify="true">
+            <form class="col l6 m6 s10 offset-l3 offset-m3 offset-s1" data-netlify-recaptcha="true" name="contact" action="POST" data-netlify="true">
              
                 <div class="row">
                     <div class="input-field col s12">
@@ -261,6 +261,7 @@ $('.sidenav').sidenav();
     $('.parallax').parallax();
      $('.scrollspy').scrollSpy();
       $('.modal').modal();
+       $('.materialboxed').materialbox();
       $('.carousel').carousel({
           indicators:true,
               });
