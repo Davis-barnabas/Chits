@@ -57,7 +57,9 @@ nav{
     margin-top:auto;
   zoom:80%;
     }
-   
+   #rcon{
+       font-size:1rem;
+   }
   .about-section{  
     padding-top:3rem;
   }
