@@ -110,3 +110,11 @@ iframe{
 #tab-con{
   margin-top:1.5rem;
 }
+
+#rule{
+    font-weight:bold;
+}
+#rcon{
+    font-family: san-serif;
+    font-size:2rem;
+}
