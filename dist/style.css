@@ -47,9 +47,8 @@ nav{
 } 
 #wel-img{
     display:block;
-    margin-bottom:auto;
+  margin-bottom:auto;
     zoom:50%;
-   
 }
 
     @media only screen and (max-width:600px){
