@@ -17,13 +17,16 @@
     <link rel="stylesheet" href="style.css">
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <style>
-    #map{
-        margin-top:3rem;
-        width:100%;
-        height:480px;
-    }
-    
+        body {
+            background-image: url("images/sky1-min.jpg");
+            background-repeat: repeat;
+            background-size: cover;
+            background-position: center;
+            background-attachment: scroll;
+
+        }
     </style>
 </head>
 
@@ -34,11 +37,11 @@
             <nav>
                 <div class="nav-wrapper">
                     <div class="container">
-                        <a href="#" class="flow-text tit">Contact</a>
+                        <a href="#" class="flow-text tit">Classifieds</a>
                         <ul id="nav-mobile" class="right hide-on-med-and-down">
                             <li><a href="index.html" class="black-text text-darken-3">Home</a></li>
                             <li><a href="events.html" class="black-text text-darken-3">Events</a></li>
-                            </ul>
+                        </ul>
                         <a href="#" data-target="slide-out" class="sidenav-trigger hide-on-med-and-up right"><i
                                 class="material-icons">menu</i></a>
                     </div>
@@ -48,32 +51,26 @@
         <ul id="slide-out" class="sidenav">
             <center>
                 <br /><br />
-                <li><a class="waves-effect black-text" href="index.html" style="font-family:'Roboto',sans-serif;">Home</a></li>
-                <li><a class="waves-effect black-text" href="events.html" style="font-family:'Roboto',sans-serif;">Events</a>
+                <li><a class="waves-effect black-text" href="index.html"
+                        style="font-family:'Roboto',sans-serif;">Home</a></li>
+                <li><a class="waves-effect black-text" href="events.html"
+                        style="font-family:'Roboto',sans-serif;">Events</a>
                 </li>
-                <li><a class="waves-effect black-text" href="about.html" style="font-family:'Roboto',sans-serif;">About Us</a></li>
-                
+                <li><a class="waves-effect black-text" href="about.html" style="font-family:'Roboto',sans-serif;">About
+                        Us</a></li>
+
             </center>
         </ul>
     </header>
-
-    <main >   
-<div class="container">
-    <br /><br />
-     <div class="row">
-        <div class="col s12 l12 hoverable">     
-           <div id="map"></div>
+    <main>
+        <div class="container">
+            <br /><br />
+            <div class="row">
+                <img src="images/adz.jpg" class="col l8 m8 offset-l2 offset-m2" height="400px">
+            </div>
+            
         </div>
-     </div>
-     <div class="details">
-         <h2 style="font-size:2rem;font-weight:bold;">Contact Number </h2>
-         <p>1. <span style="font-weight:bold;">Prakash Raj</span> &nbsp- 9095096529</p>
-         <p>2. <span style="font-weight:bold;">Srinivasan</span> &nbsp&nbsp  - 6383258610</p> 
-         <br />
-     </div>
-</div>
     </main>
-
     <footer class="page-footer grey darken-4">
         <div class="container">
             <div class="row">
@@ -90,9 +87,14 @@
                 <div class="col l4 offset-l2 s12">
                     <h4 class="white-text ">Connect Us</h4>
                     <ul>
-                        <li><a class="grey-text text-lighten-3 " href="https://www.instagram.com/chits.2020/">Instagram</a></li>
-                        <li><a class="grey-text text-lighten-3 " href="https://www.facebook.com/chits.chits.5855">Facebook</a></li>
-                        <li><a class="grey-text text-lighten-3 " href="https://www.youtube.com/channel/UCdBcd1dI3tQJfSbxY2ZEJSw?view_as=subscriber">YouTube</a></li>
+                        <li><a class="grey-text text-lighten-3 "
+                                href="https://www.instagram.com/chits.2020/">Instagram</a>
+                        </li>
+                        <li><a class="grey-text text-lighten-3 "
+                                href="https://www.facebook.com/chits.chits.5855">Facebook</a></li>
+                        <li><a class="grey-text text-lighten-3 "
+                                href="https://www.youtube.com/channel/UCdBcd1dI3tQJfSbxY2ZEJSw?view_as=subscriber">YouTube</a>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -111,23 +113,8 @@
         $(document).ready(function () {
             $('.sidenav').sidenav();
         });
-          
+
     </script>
-    <script type="text/javascript">
-        function initMap() {
-            var location = { lat: 10.815495, lng: 78.673599 };
-            var map = new google.maps.Map(document.getElementById("map"), {
-                zoom: 16,
-                center: location
-            });
-            var marker = new google.maps.Marker({
-                position: location,
-                map: map
-            });
-        }
-    </script>
-    <script type="text/javascript" async defer
-        src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAv4QUZcmKS4FxXU9hOgxk-xplog4DgNvE&callback=initMap">  </script>
     <!-- Compiled and minified JavaScript -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
 </body>
